@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Learn javascipt</h2>
+    <p>Welcome to my website</p>
+    <script>
+
+        class Person {
+            constructor(name){
+                this.name = name;
+            }
+
+            sayHello(name){
+                console.log(`Hello ${name}, my name is ${this.name}`)
+            }
+        }
+
+        const doni = new Person('doni')
+        console.info(doni)
+        doni.sayHello('joko')
+
+        const samuel = new Person('samuel')
+        console.info(samuel)
+        samuel.sayHello('joko')
+    </script>
+</body>
+</html>
